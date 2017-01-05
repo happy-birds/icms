@@ -1,0 +1,3 @@
+server:
+  context-path: /happy/birds
+  port: 8888
