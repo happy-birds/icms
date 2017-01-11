@@ -66,7 +66,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
-
+                <dependency>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>springloaded</artifactId>
+                    <version>1.2.6.RELEASE</version>
+                </dependency>
                 <configuration>
                     <executable>true</executable>
                     <excludeDevtools>true</excludeDevtools>
